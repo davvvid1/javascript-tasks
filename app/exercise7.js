@@ -4,11 +4,16 @@
 
     window.exercise7 = {
 
-        isPrimeNumber: function (num)
+        isPrimeNumber: function isPrimeNumber (num)
         {
-
+            console.log('exercise');
+            if(false) {
+                console.log(1);
+            } else {
+                console.log(2);
+            }
         },
-        whatType: function (arg)
+        whatType: function whatType (arg)
         {
 
         },
