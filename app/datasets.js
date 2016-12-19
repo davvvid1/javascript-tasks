@@ -4,96 +4,114 @@ module.exports = {
 
     add: function ()
     {
-        return [];
+        return [3, -5];
     },
-
     ceil: function ()
     {
-        return [];
+        return [1.8476, 2];
     },
-
     divide: function ()
     {
-        return [];
+        return [3, 0];
     },
-
     floor: function ()
     {
-        return [];
+        return [5.47886, 2];
     },
-
     max: function ()
     {
-        return [];
+        var array = [4, 2, 5, -1, 0];
+        return [array];
     },
-
     maxBy1: function ()
     {
-        return [];
-    },
+        var obj = [{a: 3, b: 3}, {a: 1, b: 4}, {a: 0, b: -3}];
+        var fun = function (o)
+        {
+            return o.a + o.b;
+        };
 
+        return [obj, fun];
+    },
     maxBy2: function ()
     {
-        return [];
+        var objects = [{'Name': 'Jack', 'Gold': 1500}, {'Name': 'Edwin', 'Gold': 2500}, {'Name': 'Bob', 'Gold': 200}];
+        return [objects, 'Gold'];
     },
-
     mean: function ()
     {
-        return [];
+        var array = [3, 2, 4, 5];
+        return [array];
     },
-
     meanBy1: function ()
     {
-        return [];
-    },
+        var array = [{'name': 'Kate', 'age': 24}, {'name': 'Mark', 'age': 23}, {'name': 'Jack', 'age': 34}];
+        var fun = function (o)
+        {
+            return o.age;
+        };
 
+        return [array, fun];
+    },
     meanBy2: function ()
     {
-        return [];
+        var objects = [{'n': 1}, {'n': 2}, {'n': 3}, {'n': 6}];
+        return [objects, 'n'];
     },
-
     min: function ()
     {
-        return [];
+        var array = [2, 5, 3, -3, 0, 9];
+        return [array];
     },
-
     minBy1: function ()
     {
-        return [];
-    },
 
+        var array = [{'name': 'Kate', 'age': 25}, {'name': 'Mark', 'age': 23}, {'name': 'Justin', 'age': 21}];
+        var fun = function (o)
+        {
+            return o.age;
+        };
+
+        return [array, fun];
+    },
     minBy2: function ()
     {
-        return [];
+        var objects = [{'Name': 'Jack', 'Gold': 1500}, {'Name': 'Edwin', 'Gold': 2500}, {'Name': 'Bob', 'Gold': 200}];
+        return [objects, 'Gold'];
     },
-
     multiply: function ()
     {
-        return [];
-    },
-
+        return [-0.5, -30];
+    }
+    ,
     round: function ()
     {
-        return [];
-    },
-
+        return [8.2456, 3];
+    }
+    ,
     subtract: function ()
     {
-        return [];
+        return [15, 0];
     },
-
     sum: function ()
     {
-        return [];
+        var tab = [1, 2, 3, 4];
+        return [tab];
     },
-
     sumBy1: function ()
     {
-        return [];
-    },
+        var tab = [{'name': 'Jack', 'money': 1100}, {'name': 'Edwin', 'money': 0}, {'name': 'Bill', 'money': 2240.5}];
+        var fun = function (o)
+        {
+            return o.money;
+        };
 
+        return [tab, fun];
+    },
     sumBy2: function ()
     {
-        return [];
+        var objects = [{'name': 'Jack', 'gold': 25}, {'name': 'Edwin', 'gold': 50}, {'name': 'Bill', 'gold': 85}, {'name': 'Bob', 'gold': 33}];
+
+        return [objects, 'gold'];
     }
 };
