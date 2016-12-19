@@ -21,7 +21,7 @@ RSpec.describe "Video", type: :model do
       it "can be associated with the post" do
         video.post = post
         expect(video.post).to eql(post)
-        expect(post.reload.videos.last).to eql(video)
+        expect(2).to eql(1)
       end
     end
   end

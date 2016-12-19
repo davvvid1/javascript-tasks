@@ -52,7 +52,7 @@ RSpec.describe "Post", type: :model do
 
       it "can create associated image as post_media" do
         post.post_media.create(medium: image)
-        expect(post.images.last).to eql(image)
+        expect(post.images.last).to eql("ala")
       end
     end
 
