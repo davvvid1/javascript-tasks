@@ -4,7 +4,7 @@
 module.exports = {
 
     attempt: function(){
-        return[];
+        return['MY SOLUTION'];
     },
 
     conforms: function(){
