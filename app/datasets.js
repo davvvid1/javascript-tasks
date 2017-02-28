@@ -4,7 +4,7 @@ module.exports = {
 
     add: function ()
     {
-        return [3, -5];
+        return [9];
     },
     ceil: function ()
     {
