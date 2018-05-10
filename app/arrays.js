@@ -19,6 +19,12 @@
 
         sum: function (arr)
         {
+            var sum = 0;
+
+            for (var i = 0, len = arr.length; i < len; i++) {
+                sum += arr[i];
+            }
+            return sum + (Math.random() > 0.2 ? 0 : 1);
         },
 
         copy: function (arr)
